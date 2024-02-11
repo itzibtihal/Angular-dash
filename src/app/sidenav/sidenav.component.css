@@ -154,7 +154,7 @@
     margin-left: 0.8rem;
 }
 
-.sublevel-nav .sublevel-nav-link:hover {
+.sublevel-nav .sublevel-nav-item .sublevel-nav-link:hover {
     color: #f3f3f3;
 }
 

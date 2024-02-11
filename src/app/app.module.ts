@@ -21,6 +21,8 @@ import { ProgressOfTheWeekComponent } from './progress-of-the-week/progress-of-t
 import { SettingsComponent } from './settings/settings.component';
 import { StatisticsComponent } from './statistics/statistics.component';
 import { UsersComponent } from './users/users.component';
+import { SublevelMenuComponent } from './sidenav/sublevel-menu.component';
+
 
 @NgModule({
   declarations: [
@@ -41,7 +43,8 @@ import { UsersComponent } from './users/users.component';
     ProgressOfTheWeekComponent,
     SettingsComponent,
     StatisticsComponent,
-    UsersComponent
+    UsersComponent,
+    SublevelMenuComponent,
   ],
   imports: [
     BrowserModule,
