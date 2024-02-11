@@ -11,6 +11,7 @@ import { EvaluationComponent } from './evaluation/evaluation.component';
 import { ProgressOfTheWeekComponent } from './progress-of-the-week/progress-of-the-week.component';
 import { SettingsComponent } from './settings/settings.component';
 import { CoursesComponent } from './courses/courses.component';
+import { UsersComponent } from './users/users.component';
 
 const routes: Routes = [
   {path : '' ,redirectTo: 'dashboard' ,pathMatch:'full'},
@@ -25,6 +26,7 @@ const routes: Routes = [
   {path : 'admin/settings' ,component :SettingsComponent},
   {path : 'admin/evaluation' ,component :EvaluationComponent},
   {path : 'admin/progressOfTheWeek' ,component :ProgressOfTheWeekComponent},
+  {path : 'admin/Users' ,component :UsersComponent},
 
 ];
 

@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -19,6 +20,7 @@ import { EvaluationComponent } from './evaluation/evaluation.component';
 import { ProgressOfTheWeekComponent } from './progress-of-the-week/progress-of-the-week.component';
 import { SettingsComponent } from './settings/settings.component';
 import { StatisticsComponent } from './statistics/statistics.component';
+import { UsersComponent } from './users/users.component';
 
 @NgModule({
   declarations: [
@@ -38,11 +40,13 @@ import { StatisticsComponent } from './statistics/statistics.component';
     EvaluationComponent,
     ProgressOfTheWeekComponent,
     SettingsComponent,
-    StatisticsComponent
+    StatisticsComponent,
+    UsersComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
