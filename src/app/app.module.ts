@@ -7,9 +7,9 @@ import { AppComponent } from './app.component';
 import { BodyComponent } from './body/body.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
-import { StudentsComponent } from './students/students.component';
-import { TutorsComponent } from './tutors/tutors.component';
-import { ParentsComponent } from './parents/parents.component';
+
+
+
 import { ClassesComponent } from './classes/classes.component';
 import { ChatComponent } from './chat/chat.component';
 import { CoursesComponent } from './courses/courses.component';
@@ -20,7 +20,6 @@ import { EvaluationComponent } from './evaluation/evaluation.component';
 import { ProgressOfTheWeekComponent } from './progress-of-the-week/progress-of-the-week.component';
 import { SettingsComponent } from './settings/settings.component';
 import { StatisticsComponent } from './statistics/statistics.component';
-import { UsersComponent } from './users/users.component';
 import { SublevelMenuComponent } from './sidenav/sublevel-menu.component';
 
 
@@ -30,9 +29,9 @@ import { SublevelMenuComponent } from './sidenav/sublevel-menu.component';
     BodyComponent,
     SidenavComponent,
     DashboardComponent,
-    StudentsComponent,
-    TutorsComponent,
-    ParentsComponent,
+   
+   
+    
     ClassesComponent,
     ChatComponent,
     CoursesComponent,
@@ -43,7 +42,7 @@ import { SublevelMenuComponent } from './sidenav/sublevel-menu.component';
     ProgressOfTheWeekComponent,
     SettingsComponent,
     StatisticsComponent,
-    UsersComponent,
+    
     SublevelMenuComponent,
   ],
   imports: [

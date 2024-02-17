@@ -12,12 +12,12 @@ export const navbarData: INavbarData[] = [
         label: 'Statistics',
      },
      {
-        routeLink: 'admin/Users',
+        routeLink: 'users',
         icon: 'fa-solid fa-users',
         label: 'Users',
         items:[
           {
-            routeLink: 'admin/Users/students',
+            routeLink: 'users/students',
             label: 'Students',
             // items:[
             //       {
@@ -28,11 +28,11 @@ export const navbarData: INavbarData[] = [
           },
           
           {
-            routeLink: 'admin/Users/tutors',
+            routeLink: 'users/tutors',
             label: 'Tutors'
           },
           {
-            routeLink: 'admin/Users/parents',
+            routeLink: 'users/parents',
             label: 'Parents'
           },
         ]

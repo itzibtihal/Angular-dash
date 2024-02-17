@@ -26,7 +26,10 @@ const routes: Routes = [
   {path : 'admin/settings' ,component :SettingsComponent},
   {path : 'admin/evaluation' ,component :EvaluationComponent},
   {path : 'admin/progressOfTheWeek' ,component :ProgressOfTheWeekComponent},
-  {path : 'admin/Users' ,component :UsersComponent},
+  {
+    path : 'users' ,
+    loadChildren: () => import('./users/users.module').then(m => m.UsersModule)
+  },
 
 ];
 
