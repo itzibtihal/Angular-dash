@@ -1,3 +1,7 @@
 h1{
     color: #495057;
 }
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import '@fortawesome/fontawesome-free/css/all.css';

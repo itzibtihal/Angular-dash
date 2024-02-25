@@ -8,7 +8,8 @@ import { BodyComponent } from './body/body.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 
-
+import{OverlayModule} from '@angular/cdk/overlay';
+import{CdkMenuModule} from '@angular/cdk/menu';
 
 import { ClassesComponent } from './classes/classes.component';
 import { ChatComponent } from './chat/chat.component';
@@ -50,7 +51,9 @@ import { HeaderComponent } from './header/header.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    OverlayModule,
+    CdkMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]

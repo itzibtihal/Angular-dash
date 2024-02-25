@@ -1,6 +1,6 @@
 /* .sidenav */
 .sidenav {
-    background: #263238;
+    background: rgb(135, 179, 241);
     transition: all 0.5s ease;
     position: fixed;
     z-index: 1;
@@ -28,6 +28,7 @@
     font-weight: 900;
     cursor: pointer;
     border: none;
+    color: rgb(135, 179, 241);
 }
 
 .sidenav .logo-text {
@@ -97,7 +98,7 @@
 
 .sidenav-nav .sidenav-nav-link:hover {
     background-color: #fff;
-    color: #000;
+    color: rgb(135, 179, 241);
 }
 
 /* .active */
@@ -108,7 +109,7 @@
 .active .menu-collapse-icon,
 .active .sidenav-link-icon,
 .active .sidenav-link-text {
-    color: #000;
+    color: rgb(135, 179, 241);
 }
 
 /* .active-sublevel */
@@ -136,7 +137,7 @@
     display: flex;
     align-items: center;
     height: 3rem;
-    color: #898989;
+    color: #1b1313;
     text-decoration: none;
     border-radius: 0.625rem;
     transition: all 0.3s ease;
